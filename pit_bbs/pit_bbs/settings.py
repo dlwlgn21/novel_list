@@ -52,6 +52,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'pit_bbs.urls'
+ALLOWED_HOSTS = '*'
 
 TEMPLATES = [
     {
